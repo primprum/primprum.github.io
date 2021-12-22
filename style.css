@@ -1,5 +1,10 @@
+body {
+  font-family: "Corinthia", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+
 .jumbotron {
-  padding-top: 7rem;
+  padding-top: 8rem;
   background-color: #d0f5f5;
 }
 
@@ -9,4 +14,18 @@
 
 section {
   padding-top: 5rem;
+}
+
+.card {
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
